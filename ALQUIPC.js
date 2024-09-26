@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-console.log('---------------Bienvenido a ALQUIPC--------------------');
+console.log('---------------Bienvenido a ALQUIPC------------------');
 console.log('           Por favor ingrese sus datos          ');
 
 //todo. Verificar usuario
@@ -74,7 +74,8 @@ let n_Adicionales = parseInt(prompt('Ingrese la cantidad de días adicionales: '
 while (isNaN(n_Adicionales) || n_Adicionales < 0) {
     console.log('Por favor, ingrese un número válido para los días adicionales.');
     n_Adicionales = parseInt(prompt('Ingrese la cantidad de días adicionales: '));
-}//!por alguna razon el codigo no me funcionaba sino verificaba que diasAdiciones era un numero
+}//!por alguna razon el codigo no me funcionaba antes sino verificaba que diasAdiciones era un numero...
+//*ahora por algun motivo si funcina el programa sin el validar dias... que raro debi tener un error en otro lado
 
 console.log('||||||||||||||||||||||||||||||||||||');
 
