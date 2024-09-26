@@ -19,4 +19,4 @@ npm init -y
   pkg .
   -y asi es como se ejecuta un programa con node.js y la extension pkg
 
-  Nota: Recordar que el archivo ejecutable se llamara como el nombre del archivo donde estamos
+  Nota: Recordar que el archivo ejecutable se llamara como el nombre alquipc. se pone en el "name" el json

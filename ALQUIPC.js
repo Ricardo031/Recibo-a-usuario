@@ -1,5 +1,8 @@
 const prompt = require('prompt-sync')();
 
+console.log('---------------Bienvenido a ALQUIPC--------------------');
+console.log('           Por favor ingrese sus datos          ');
+
 //todo. Verificar usuario
 let usuario = prompt('Usuario: ');
 while (usuario == ''){

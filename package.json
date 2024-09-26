@@ -2,7 +2,7 @@
   "dependencies": {
     "prompt-sync": "^4.2.0"
   },
-  "name": "recibo-a-usuario",
+  "name": "alquipc",
   "version": "1.0.0",
   "main": "ALQUIPC.js",
   "bin": "ALQUIPC.js",  
