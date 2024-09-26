@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "recibo-a-usuario",
+  "version": "1.0.0",
+  "main": "ALQUIPC.js",
+  "bin": "ALQUIPC.js",  
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "targets": [
+      "node16-win-x64"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

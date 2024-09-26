@@ -1,0 +1,22 @@
+para que pueda funcinar bien el uso de pkg se tiene que instalar la libreria
+npm install -g pkg
+-Luego hay que crear el package json con
+npm init -y
+
+-ya con eso hay que modificar el package.json añadiendo como el "bin" y la seccion de "pkg"
+
+"bin": "tuArchivo.js",
+"pkg": {
+    "targets": [
+      "node16-linux-x64",
+      "node16-macos-x64",
+      "node16-win-x64"
+    ]
+  }
+  -en el target hay que definir la version del node(en este caso es 16 o 18 porque el pkg no es compatible con las versiones actuales) y luego establecer el SO donde se ejecutara
+
+  -y por ultimo para poder crear el pkg tienes que asegurarte depurar dentro del archivo  y colocar: 
+  pkg .
+  -y asi es como se ejecuta un programa con node.js y la extension pkg
+
+  Nota: Recordar que el archivo ejecutable se llamara como el nombre del archivo donde estamos
